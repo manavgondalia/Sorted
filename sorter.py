@@ -20,7 +20,6 @@ NOTSORTED = "#2B3467"
 
 
 n = 20
-
 y = np.random.randint(0, 250, n)
 x = np.arange(0, n, 1)
 
@@ -40,7 +39,7 @@ def selection_sort(xcopy, ycopy, ncopy):
         ycopy[i], ycopy[id] = ycopy[id], ycopy[i]
         color[i] = SORTED
         plt.bar(xcopy, ycopy, color=color)
-        plt.pause(n/500)
+        plt.pause(n/1000)
     plt.title("Selection Sort Completed")
     plt.show()
 
@@ -57,16 +56,23 @@ def insertion_sort(xcopy, ycopy, ncopy):
             ycopy[j+1] = ycopy[j]
             j -= 1
             plt.bar(xcopy, ycopy, color=color)
-            plt.pause(n/1000)
+            plt.pause(n/1500)
             plt.clf()
         ycopy[j+1] = curr
         color[i] = SORTED
         plt.bar(xcopy, ycopy, color=color)
-        plt.pause(n/1000)
+        plt.pause(n/1500)
         if(i < n-1):
             plt.clf()
     plt.title("Insertion Sort Completed")
     plt.show()
+
+
+def set_insanity(value, size):
+    global n, x, y
+    n = size
+    y = np.random.randint(0, 250, n)
+    x = np.arange(0, n, 1)
 
 
 def st():
@@ -78,8 +84,10 @@ def it():
 
 
 menu = pygame_menu.Menu('Welcome', 1000, 600,
-                        theme=pygame_menu.themes.THEME_BLUE)
+                        theme=pygame_menu.themes.THEME_DARK)
 menu.add.label(LABEL)
+menu.add.selector(
+    'Size of array :', [('Mild: 20', 20), ('Bold: 50', 50), ('Insane: 100', 100)], onchange=set_insanity)
 menu.add.button('Selection Sort', st)
 menu.add.button('Insertion Sort', it)
 menu.add.button('Quit', pygame_menu.events.EXIT)
