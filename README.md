@@ -1,7 +1,7 @@
 
 # Visualising sorting algorithms using Python and Matplotlib
 
-Seeing various sorting algorithms like Insertion sort, Selection sort and other sorting algorithms in action using matplotlib library of Python.
+Seeing various sorting algorithms like Insertion sort and more in action using Matplotlib library of Python.
 
 
 ## Run Locally
