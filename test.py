@@ -23,7 +23,7 @@ def take_input():
 # take_input()
 # n = len(y)
 
-n = 15
+n = 20
 
 y = np.random.randint(0, 250, n)
 x = np.arange(0, n, 1)
