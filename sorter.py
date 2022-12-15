@@ -9,6 +9,10 @@ surface = pygame.display.set_mode((1000, 600))
 pygame.display.set_caption("Sorter")
 LABEL = "Welcome to Sorter! \n Press any button to see the sorting algorithm in action. \n Or navigate using the arrow keys."
 
+img = pygame.image.load('icon.png')
+pygame.display.set_icon(img)
+
+
 x = []
 y = []
 SORTED = "#EB455F"
