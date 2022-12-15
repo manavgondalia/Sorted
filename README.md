@@ -10,8 +10,8 @@ Make sure you have the latest versions of Python, Numpy and Matplotlib installed
 - [How to install Python on your PC](https://www.python.org/downloads/)
 - [How to install NumPy on your PC](https://numpy.org/install/)
 - [How to install Matplotlib on your PC](https://matplotlib.org/stable/users/installing/index.html)
-
-
+- [How to install PyGame on your PC](https://pypi.org/project/pygame/)
+- [How to install pygame-menu on your PC](https://pygame-menu.readthedocs.io/en/4.3.1/#install-instructions)
 
 
 Open your terminal and clone this repository to a folder/directory using the following command:
