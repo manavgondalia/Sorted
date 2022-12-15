@@ -8,10 +8,6 @@ SORTED = "#EB455F"
 NOTSORTED = "#2B3467"
 
 
-def duplicate(x):
-    return x
-
-
 def take_input():
     global x, y
     vector = list(map(int, input("Enter array input: ").split()))
