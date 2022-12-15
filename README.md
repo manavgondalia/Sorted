@@ -38,7 +38,7 @@ The program will use a random array of `n` numbers as defined in the program.
 ## Working demo
 
 
-https://user-images.githubusercontent.com/72291135/207810718-7f6a9cdd-576a-48b5-9927-bfa707aba579.mp4
+[Demo video to be updated]
 
 
 ## Feedback
