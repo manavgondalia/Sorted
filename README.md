@@ -30,7 +30,7 @@ Go to the project directory
 Run the python program
 
 ```bash
-  python test.py
+  python sorter.py
 ```
 
 The program will use a random array of `n` numbers as defined in the program.
