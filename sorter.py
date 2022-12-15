@@ -65,7 +65,7 @@ def insertion_sort(xcopy, ycopy, ncopy):
         plt.pause(n/1000)
         if(i < n-1):
             plt.clf()
-    plt.title("Selection Sort Completed")
+    plt.title("Insertion Sort Completed")
     plt.show()
 
 
