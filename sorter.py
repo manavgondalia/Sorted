@@ -1,26 +1,19 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
+import pygame
+import pygame_menu
+
+pygame.init()
+surface = pygame.display.set_mode((1000, 600))
+pygame.display.set_caption("Sorter")
+LABEL = "Welcome to Sorter! \n Press any button to see the sorting algorithm in action. \n Or navigate using the arrow keys."
 
 x = []
 y = []
 SORTED = "#EB455F"
 NOTSORTED = "#2B3467"
 
-
-def take_input():
-    global x, y
-    vector = list(map(int, input("Enter array input: ").split()))
-    y = np.array(vector)
-    id = []
-    for i in range(len(vector)):
-        id.append(i)
-
-    x = np.array(id)
-
-
-# take_input()
-# n = len(y)
 
 n = 20
 
@@ -72,11 +65,18 @@ def insertion_sort(xcopy, ycopy, ncopy):
     plt.show()
 
 
-print("1. Selection Sort")
-print("2. Insertion Sort")
-choice = int(input("What sorting operation do you want to see: "))
-
-if(choice == 1):
+def st():
     selection_sort(np.copy(x), np.copy(y),  n)
-if(choice == 2):
+
+
+def it():
     insertion_sort(np.copy(x), np.copy(y),  n)
+
+
+menu = pygame_menu.Menu('Welcome', 1000, 600,
+                        theme=pygame_menu.themes.THEME_BLUE)
+menu.add.label(LABEL)
+menu.add.button('Selection Sort', st)
+menu.add.button('Insertion Sort', it)
+menu.add.button('Quit', pygame_menu.events.EXIT)
+menu.mainloop(surface)
