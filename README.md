@@ -6,7 +6,7 @@ Seeing various sorting algorithms like Insertion sort and more in action using M
 
 ## Run Locally
 
-Make sure you have the latest versions of Python, Numpy and Matplotlib installed on your system.
+Make sure you have the latest versions of Python, NumPy and Matplotlib installed on your system.
 - [How to install Python on your PC](https://www.python.org/downloads/)
 - [How to install NumPy on your PC](https://numpy.org/install/)
 - [How to install Matplotlib on your PC](https://matplotlib.org/stable/users/installing/index.html)
