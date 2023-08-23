@@ -1,49 +1,41 @@
 
-# Visualising sorting algorithms using Python and Matplotlib
+# Sorted
 
-Seeing various sorting algorithms like Insertion sort and more in action using Matplotlib library of Python.
+Visualize the following sorting algorithms in action:
 
+| Algorithm |
+|----------------|
+| Bubble Sort    |
+| Selection Sort |
+| Insertion Sort |
+| Merge Sort     |
+| Quick Sort     |
 
+The animations are created with the help of bar graphs using **Matlplotlib** and the GUI is designed using **pygame** and **pygame-menu**. 
 ## Run Locally
 
-Make sure you have the latest versions of Python, NumPy, Matplotlib, PyGame and pygame-menu installed on your system.
-- [How to install Python on your PC](https://www.python.org/downloads/)
-- [How to install NumPy on your PC](https://numpy.org/install/)
-- [How to install Matplotlib on your PC](https://matplotlib.org/stable/users/installing/index.html)
-- [How to install PyGame on your PC](https://pypi.org/project/pygame/)
-- [How to install pygame-menu on your PC](https://pygame-menu.readthedocs.io/en/4.3.1/#install-instructions)
-
-
-Open your terminal and clone this repository to a folder/directory using the following command:
+Clone the project
 
 ```bash
-  git clone https://github.com/manavgondalia/visualise-sorting-algorithms.git
+  git clone https://github.com/manavgondalia/Sorted.git
+
 ```
 
 Go to the project directory
 
 ```bash
-  cd visualise-sorting-algorithms
+  cd Sorted
 ```
 
-
-Run the python program
+Install dependencies
 
 ```bash
-  python sorter.py
+  pip install -r requirements.txt
 ```
 
-The program will use a random array of `n` numbers as defined in the program.
+Start the program
 
-## Working demo
-
-
-https://user-images.githubusercontent.com/72291135/207852045-67744bc9-7a7c-4e74-bff2-4112a399f76b.mp4
-
-
-
-
-## Feedback
-
-If you have any feedback, please reach out to me at gondaliamanav@gmail.com
+```bash
+  python sorted.py
+```
 
