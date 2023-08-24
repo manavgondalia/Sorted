@@ -40,3 +40,22 @@ Start the program
 python sorted.py
 ```
 
+## Demo
+
+GUI guide:
+![demo1](https://github.com/manavgondalia/Sorted/assets/72291135/c11ea20c-c74e-4b33-932b-ca50c17aef31)
+
+Using custom array:
+![demo2](https://github.com/manavgondalia/Sorted/assets/72291135/c3c1bdff-366b-4da4-a44f-853afa176094)
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at:
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gondaliamanav@gmail.com)
+
+
+
+
+
