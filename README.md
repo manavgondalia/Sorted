@@ -18,25 +18,25 @@ The animations are created with the help of bar graphs using **Matlplotlib** and
 Clone the project
 
 ```bash
-  git clone https://github.com/manavgondalia/Sorted.git
+git clone https://github.com/manavgondalia/Sorted.git
 
 ```
 
 Go to the project directory
 
 ```bash
-  cd Sorted
+cd Sorted
 ```
 
 Install dependencies
 
 ```bash
-  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Start the program
 
 ```bash
-  python sorted.py
+python sorted.py
 ```
 
