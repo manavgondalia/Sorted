@@ -1,4 +1,4 @@
-# ![icon_lg](https://github.com/manavgondalia/Sorted/assets/72291135/f967a2e4-e00c-4698-8878-884ef0c558f7) Sorted
+# ![icon_lg](https://github.com/manavgondalia/Sorted/assets/72291135/752a9571-d4cb-4d90-bb02-70a83548d566) Sorted
 
 
 
